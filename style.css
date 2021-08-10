@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-content: center;
+    text-align: center;
+    padding-top: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    padding: 100px;
+}
+
+.key {
+    padding: 40px;
+}
+
+.keyUsed {
+    padding-bottom: 10px;
+}

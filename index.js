@@ -8,6 +8,6 @@ document.addEventListener("keydown", (e) => {
     bannerText.textContent = e.keyCode
     keyValue.textContent = e.key
     keyCode.textContent = e.code
-    charCode.textContent = e.charCode
+    charCode.textContent = e.keyCode
     console.dir(e)
 })
