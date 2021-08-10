@@ -1,8 +1,8 @@
-let bannerText = document.getElementById("banner")
-let keyValue = document.getElementById("keyValue")
-let keyCode = document.getElementById("keyCode")
-let charCode = document.getElementById("charCode")
-let key = document.getElementById("key")
+const bannerText = document.getElementById("banner")
+const keyValue = document.getElementById("keyValue")
+const keyCode = document.getElementById("keyCode")
+const charCode = document.getElementById("charCode")
+const key = document.getElementById("key")
 
 document.addEventListener("keydown", (e) => {
     bannerText.textContent = e.keyCode
